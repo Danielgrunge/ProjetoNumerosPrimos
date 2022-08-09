@@ -1,0 +1,71 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,52,57,1) 26%, rgba(119,132,135,1) 100%);
+}
+
+.logo{
+    height: 100px;
+    box-shadow: 5  px;
+    border-radius: 15px;
+}
+
+.titulo{
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 4px 5px rgb(41, 48, 46); 
+}
+.enunciado{
+    color: aliceblue;
+    text-align: center;
+}
+
+.resultado{
+    text-align: center;
+    color: aliceblue;
+}
+.buttonCheck{
+    background-color:rgb(144, 182, 182);
+    width: 90px;
+    height: 30px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.buttonClear{
+    background-color:rgb(144, 182, 182);
+    width: 90px;
+    height: 30px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.inputData{
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.input{
+    border-radius: 5px;
+    padding: 0.3em;
+    width: 60px;
+    height: 15px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+}
